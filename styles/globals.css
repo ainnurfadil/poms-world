@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bgnavbar {
+  background-image: url("/img/bg_0_header.png");
+  background-size: cover;
+}
+
+.bgnavbar2 {
+  background-image: url("/img/bg_0_header.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bghero {
+  background-image: url("/img/bg01_hero.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.bgsynopsis {
+  background-image: url("/img/bg_02_description.png");
+  background-size: cover;
+}
+
+.bgroadmap {
+  background-image: url("/img/bg_03_roadmap.png");
+  background-size: cover;
+}
+
+.bgcollection {
+  background-image: url("/img/bg_04_collection.png");
+  background-size: cover;
+}
+
+.bgcollectionmobile {
+  background-image: url("/img/bg04_collectionmobile.png");
+  background-size: cover;
+}
+
+.bgfaq {
+  background-image: url("/img/bg_05_faq.png");
+  background-size: cover;
+
+}
+
+.bgteam {
+  background-image: url("/img/bg06_team.png");
+  background-size: contain;
+
+}
+
+.bgjoinus {
+  background-image: url("/img/bg07_joinus.png");
+  background-size: cover;
+
+}
