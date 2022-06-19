@@ -73,18 +73,22 @@ a {
 .bgfaq {
   background-image: url("/img/bg_05_faq.png");
   background-size: cover;
-
+  height: 47vw;
 }
 
 .bgteam {
   background-image: url("/img/bg06_team.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
+  height: 61vw;
 }
 
 .bgjoinus {
   background-image: url("/img/bg07_joinus.png");
   background-size: cover;
+  background-position: center;
+  height: 41vw;
 }
 
 /* Hero */
@@ -165,5 +169,80 @@ a {
 @screen lg {
   .hero__tree-right-bottom {
     bottom: 12vw;
+  }
+}
+
+/* Synopsis Section */
+.section-synopsis__char {
+  max-width: 300px;
+  margin: 100px auto 30px;
+}
+
+@screen md {
+  .section-synopsis__char {
+    max-width: auto;
+    margin: 0;
+  }
+}
+
+.roadmap__tree-right {
+  bottom: 0;
+  right: 0;
+  max-width: 30vw;
+}
+
+.roadmap__tree-left {
+  bottom: 0;
+  left: 0;
+  max-width: 20vw;
+}
+
+/* FAQ */
+.faq__answer {
+  background: rgba(255, 255, 255, .75)
+}
+
+@screen md {
+  .faq__answer {
+    background: none;
+  }
+}
+
+.faq__bush-right {
+  bottom: 7vw;
+}
+
+.faq__tree-left {
+  bottom: 7vw;
+}
+
+@screen lg {
+  .faq__bush-right {
+    bottom: 5vw;
+  }
+
+  .faq__tree-left {
+    bottom: 5vw;
+  }
+}
+
+@screen xl {
+  .faq__bush-right {
+    bottom: 3vw;
+  }
+
+  .faq__tree-left {
+    bottom: 3vw;
+  }
+}
+
+/* Join Us */
+.joinus__wrapper {
+  bottom: 4vw;
+}
+
+@screen xl {
+  .joinus__wrapper {
+    bottom: 6vw;
   }
 }

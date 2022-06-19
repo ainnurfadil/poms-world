@@ -4,7 +4,7 @@
 export default function Roadmap() {
     return(
         <>
-          <div className=" h-auto md:h-282 w-full bg-red-300 pt-20 justify-center bgroadmap overflow-hidden">
+          <div className=" h-auto w-full bg-red-300 pt-8 md:pt-20 justify-center bgroadmap overflow-hidden">
 
             <img
             alt="title_roadmap"
@@ -20,7 +20,7 @@ export default function Roadmap() {
               src="./img/anim_treeLeft.png"/> */}
               <img
               alt="left tree animation"
-              className="w-64 h-auto absolute bottom-0 left-0 md:bottom-20"
+              className="absolute roadmap__tree-left"
               src="./img/anim_treeLeft.gif"/>
 
               <img
@@ -37,7 +37,7 @@ export default function Roadmap() {
               src="./img/anim_treeRight.png"/> */}
               <img
               alt="right tree animation"
-              className="w-96 h-auto absolute bottom-0 -right-8 md:bottom-20"
+              className="absolute roadmap__tree-right"
               src="./img/anim_treeRight.gif"/>
 
             </div>

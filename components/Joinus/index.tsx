@@ -3,8 +3,8 @@
 export default function Joinus() {
   return (
     <>
-      <div className="h-32 md:h-joinus w-full  relative bgjoinus ">
-        <div className="absolute inset-x-0 bottom-0">
+      <div className="w-full relative bgjoinus ">
+        <div className="absolute inset-x-0 joinus__wrapper">
 
           <img
             alt="title_roadmap"

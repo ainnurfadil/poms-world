@@ -27,41 +27,38 @@ export default function Faq() {
 
     ]
     return (
-        <section className="text-ijo bgfaq h-auto md:h-faq md:pt-4">
+        <section className="text-ijo bgfaq md:pt-4">
 
-            <h1 className="text-2xl md:text-6xl font-medium text-center text-white">
+            <h1 className="text-2xl md:text-6xl font-medium text-center text-white relative z-10 px-5">
                 Frequently Asked Question
             </h1>
 
-            <div className="flex py-4 md:py-10 justify-between w-full h-full relative">
+            <div className="flex py-4 md:py-10 justify-between w-full h-full relative pb-12 lg:pb-20">
 
                 <img
                     alt=""
-                    className="w-2/5 md:w-1/5 h-auto absolute bottom-4 md:bottom-14 md:left-0"
+                    className="w-2/5 md:w-1/5 h-auto absolute faq__tree-left"
                     src="./img/faq_tree_left.png" />
 
-                <div className="container mx-auto w-4/5 md:w-3/5 z-10 md:z-0 h-full overflow-y-auto">
+                <div className="px-5 mx-auto sm:w-4/5 md:w-3/5 z-10 md:z-0 overflow-y-auto" style={{height: '90%'}}>
+                    <div className="w-full text-base md:text-2xl">
+                        {questions.map((question, index) => (
+                            <details className="mb-4" key={index + question.title}>
+                                <summary className="font-semibold  bg-cyan-200 rounded-md py-2 px-4 ">
+                                    {question.title}
+                                </summary>
 
-                    <div className="flex flex-wrap text-base md:text-2xl">
-                        <div className="w-full px-4 py-2 ">
-                            {questions.map((question, index) => (
-                                <details className="mb-4" key={index+question.title}>
-                                    <summary className="font-semibold  bg-cyan-200 rounded-md py-2 px-4 ">
-                                        {question.title}
-                                    </summary>
-
-                                    <div className="p-4">
-                                        {question.answer}
-                                    </div>
-                                </details>
-                            ))}
-                        </div>
+                                <div className="p-4 faq__answer">
+                                    {question.answer}
+                                </div>
+                            </details>
+                        ))}
                     </div>
                 </div>
 
                 <img
                     alt=""
-                    className="w-2/5 md:w-1/5 h-auto absolute bottom-4 md:bottom-14 right-0 "
+                    className="w-2/5 md:w-1/5 h-auto absolute right-0 faq__bush-right"
                     src="./img/faq_bush_right.png" />
 
             </div>
