@@ -172,6 +172,12 @@ a {
   }
 }
 
+.hero__kite {
+  width: 35vw;
+  left: 1vw;
+  bottom: 36vw;
+}
+
 /* Synopsis Section */
 .section-synopsis__char {
   max-width: 300px;

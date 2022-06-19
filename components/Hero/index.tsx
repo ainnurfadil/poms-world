@@ -11,6 +11,12 @@ export default function Hero() {
               />
 
               <div className="w-full h-full relative">
+                {/* Kite */}
+                <img
+                  className="absolute hero__kite"
+                  src="./img/hero/anim_kite.gif"
+                  alt="kite animation"
+                />
 
                 {/* Bush */}
                 {/* <ApngComponent
