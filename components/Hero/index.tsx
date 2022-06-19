@@ -1,38 +1,50 @@
-import ApngComponent from 'react-apng';
+// import ApngComponent from 'react-apng';
+
 export default function Hero() {
     return(
         <>
-            <div className=" h-130 w-full md:h-hero md:w-full bg-birunavbar py-auto bghero ">
+            <div className="w-full md:w-full bg-birunavbar py-auto bghero ">
               <img
-                className="h-24 md:h-56 w-auto mx-auto"
+                className="mx-auto hero__logo"
                 src="./img/poms_world.png"
                 alt=""
               />
-              <div className="w-full h-faq  relative">
 
-                
-                <ApngComponent
+              <div className="w-full h-full relative">
+
+                {/* Bush */}
+                {/* <ApngComponent
                 autoPlay={true}
                 // rate={2}
                 className="w-1/4 h-auto absolute top-40 left-14 md:left-64 md:top-80"
-                src="./img/hero/anim_bush.png"/>
+                src="./img/hero/anim_bush.png"/> */}
                 {/* <img
                   className="w-1/4 h-auto absolute top-40 left-14 md:left-64 md:top-80"
                   src="./img/hero/bush.png"
                   alt=""
                 /> */}
+                <img
+                className="absolute hero__bush"
+                  src="./img/hero/anim_bush.gif"
+                  alt="bush animation"
+                />
 
-
-                <ApngComponent
+                {/* Tree Right */}
+                {/* <ApngComponent
                 autoPlay={true}
                 // rate={2}
                 className="w-24 md:w-60 h-auto absolute top-20 right-12 md:right-72 md:top-40"
-                src="./img/hero/anim_treeRight.png"/>
+                src="./img/hero/anim_treeRight.png"/> */}
                 {/* <img
                   className="w-24 md:w-60 h-auto absolute top-20 right-12 md:right-72 md:top-40"
                   src="./img/hero/treeRight.png"
                   alt=""
                 /> */}
+                <img
+                  className="absolute hero__tree-right"
+                  src="./img/hero/anim_treeRight.gif"
+                  alt=""
+                />
 
 
                 {/* <img
@@ -41,50 +53,60 @@ export default function Hero() {
                   alt=""
                 /> */}
                 <img
-                  className=" w-2/4 md:w-2/5 h-auto absolute left-25 md:left-130 md:top-0"
+                  className=" w-2/4 md:w-2/5 h-auto absolute left-1/2 -translate-x-1/2 md:top-0"
                   src="./img/col_04.png"
                   alt=""
                 />
 
-
-                <ApngComponent
+                {/* Tree Left Bottom */}
+                {/* <ApngComponent
                 autoPlay={true}
                 // rate={2}
                 className="w-24 md:w-80 h-auto absolute top-36 left-2 md:left-5 md:bottom-36"
-                src="./img/hero/anim_treeLeftBotomCorner.png"/>
+                src="./img/hero/anim_treeLeftBotomCorner.png"/> */}
                 {/* <img
                   className="w-24 md:w-80 h-auto absolute top-36 left-2 md:left-5 md:bottom-36"
                   src="./img/hero/treeLeftBotomCorner.png"
                   alt=""
                 /> */}
+                <img
+                  className="absolute hero__tree-left-bottom"
+                  src="./img/hero/anim_treeLeftBottomCorner.gif"
+                  alt="left bottom tree"
+                />
 
 
-                
-                <ApngComponent
+                {/* Tree Right Bottom */}
+                {/* <ApngComponent
                 autoPlay={true}
                 // rate={2}
                 className="w-25 md:w-80 h-auto absolute right-0 top-36 md:right-20 md:top-72"
-                src="./img/hero/anim_treeRightBotomCorner.png"/>
+                src="./img/hero/anim_treeRightBotomCorner.png"/> */}
                 {/* <img
                   className="w-25 md:w-80 h-auto absolute right-0 top-36 md:right-20 md:top-72"
                   src="./img/hero/treeRightBotomCorner.png"
                   alt=""
                 /> */}
+                <img
+                  className="absolute hero__tree-right-bottom"
+                  src="./img/hero/anim_treeRightBottomCorner.gif"
+                  alt="right bottom tree"
+                />
 
 
                 <img
-                  className="w-20 md:w-60 h-auto absolute top-48 right-12 md:right-64 md:top-135"
+                  className="absolute hero__char3"
                   src="./img/hero/char_03.png"
                   alt=""
                 />
 
 
                 <img
-                  className="w-20 md:w-60 h-auto absolute left-10 top-52 md:left-40 md:top-138"
+                  className="absolute hero__char4"
                   src="./img/hero/char_04.png"
                   alt=""
                 />
-                
+
 
               </div>
 

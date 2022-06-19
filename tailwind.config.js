@@ -20,13 +20,16 @@ module.exports = {
         'team': '59rem',
         'joinus': '32rem',
       },
-      
+
       colors: {
         birumuda: '#49B1DF',
         birunavbar: '#52C3FB',
         ijo: '#138D92',
-        
       },
+
+      fontFamily: {
+        'cursive': ['"Gaegu"', 'cursive']
+      }
     },
     // width: {
     //   '1/10': '10%',

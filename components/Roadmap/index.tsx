@@ -1,35 +1,44 @@
-import ApngComponent from 'react-apng';
-import treeLeft from './img/tree_left.png';
+// import ApngComponent from 'react-apng';
+// import treeLeft from './img/tree_left.png';
 
 export default function Roadmap() {
     return(
         <>
-          <div className=" h-auto md:h-282 w-full bg-red-300 py-auto justify-center bgroadmap ">
-              
-            <img 
-            alt="title_roadmap" 
+          <div className=" h-auto md:h-282 w-full bg-red-300 pt-20 justify-center bgroadmap overflow-hidden">
+
+            <img
+            alt="title_roadmap"
             className=" mx-auto w-32 h-12 md:w-56 md:h-20 "
             src="./img/title_roadmap.png"/>
 
-            <div className="flex py-12 md:py-32 justify-center w-full h-full relative">
-              
-              <ApngComponent
+            <div className="flex py-12 md:pb-32 md:pt-20 justify-center w-full h-full relative">
+              {/* Tree Left */}
+              {/* <ApngComponent
               autoPlay={true}
               // rate={2}
               className=" w-1/5 h-auto absolute bottom-0 left-0 md:bottom-20"
-              src="./img/anim_treeLeft.png"/>
+              src="./img/anim_treeLeft.png"/> */}
+              <img
+              alt="left tree animation"
+              className="w-64 h-auto absolute bottom-0 left-0 md:bottom-20"
+              src="./img/anim_treeLeft.gif"/>
 
-              <img 
+              <img
               alt=""
-              className=" w-3/5 h-auto mb-14 md:mb-32"
+              className=" w-3/5 mx-auto h-auto mb-14 md:mb-32"
               src="./img/line_roadmap.png"/>
 
-              <ApngComponent 
+              {/* Tree Right */}
+              {/* <ApngComponent
               alt=""
               autoPlay={true}
               // rate={2}
               className=" w-1/5 h-auto absolute bottom-0 right-0 md:bottom-20"
-              src="./img/anim_treeRight.png"/>
+              src="./img/anim_treeRight.png"/> */}
+              <img
+              alt="right tree animation"
+              className="w-96 h-auto absolute bottom-0 -right-8 md:bottom-20"
+              src="./img/anim_treeRight.gif"/>
 
             </div>
           </div>
