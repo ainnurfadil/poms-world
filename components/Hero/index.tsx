@@ -58,11 +58,16 @@ export default function Hero() {
                   src="./img/col_05.png"
                   alt=""
                 /> */}
-                <img
+                {/* <img
                   className=" w-2/4 md:w-2/5 h-auto absolute left-1/2 -translate-x-1/2 md:top-0"
                   src="./img/col_04.png"
                   alt=""
-                />
+                /> */}
+                <video className="w-2/4 md:w-2/5 h-auto absolute left-1/2 -translate-x-1/2 md:top-0" muted autoPlay loop>
+                  <source src="./img/hero/frontPage.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
+
 
                 {/* Tree Left Bottom */}
                 {/* <ApngComponent
@@ -100,18 +105,30 @@ export default function Hero() {
                 />
 
 
-                <img
+                {/* <img
                   className="absolute hero__char3"
                   src="./img/hero/char_03.png"
                   alt=""
-                />
+                /> */}
+                <video className="absolute hero__char3" muted autoPlay loop>
+                  <source src="./img/hero/astronauts.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
 
+                <video className="absolute hero__detective" muted autoPlay loop>
+                  <source src="./img/hero/detective.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
 
-                <img
+                {/* <img
                   className="absolute hero__char4"
                   src="./img/hero/char_04.png"
                   alt=""
-                />
+                /> */}
+                <video className="absolute hero__char4" muted autoPlay loop>
+                  <source src="./img/hero/kirby.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
 
 
               </div>

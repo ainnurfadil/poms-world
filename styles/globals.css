@@ -159,6 +159,19 @@ a {
   }
 }
 
+.hero__detective {
+  width: 20vw;
+  right: 26vw;
+  bottom: 8vw;
+}
+
+@screen lg {
+  .hero__detective {
+    right: 26vw;
+    bottom: 12vw;
+  }
+}
+
 .hero__tree-right-bottom {
   width: 20vw;
   right: 0vw;
@@ -244,10 +257,28 @@ a {
 
 /* Join Us */
 .joinus__wrapper {
-  bottom: 4vw;
+  bottom: 0vw;
+}
+
+@media screen and (min-width: 600px) {
+  .joinus__wrapper {
+    bottom: 4vw;
+  }
+}
+
+@screen md {
+  .joinus__wrapper {
+    bottom: 0vw;
+  }
 }
 
 @screen xl {
+  .joinus__wrapper {
+    bottom: 4vw;
+  }
+}
+
+@media screen and (min-width: 1600px) {
   .joinus__wrapper {
     bottom: 6vw;
   }

@@ -4,11 +4,15 @@ export default function Synopsis() {
     <>
       <div className="flex flex-wrap md:flex-nowrap bgsynopsis items-center justify-center md:px-8">
         <div className="w-full md:w-1/5 lg:2/5">
-          <img
+          {/* <img
             className="h-full w-full object-contain section-synopsis__char"
             src="./img/char_synopsis.png"
             alt=""
-          />
+          /> */}
+          <video className="h-full w-full object-contain section-synopsis__char" muted autoPlay loop>
+            <source src="./img/witch.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
         </div>
         <div className="w-full sm:w-4/5 lg:w-3/5 h-auto my-auto" >
           <div className="md:pl-8 lg:pl-32 sm:pr-12 lg:pr-0 text-ijo pb-20 md:pb-0 px-5 md:px-0">
