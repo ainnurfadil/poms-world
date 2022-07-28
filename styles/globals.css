@@ -31,7 +31,7 @@ a {
 }
 
 .bghero {
-  background-image: url("/img/bg01_hero.png");
+  background-image: url("/img/bg_01_hero.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ a {
 }
 
 .bgsynopsis {
-  background-image: url("/img/bg_02_description.png");
+  background-image: url("/img/bg_02_sinopsis.jpg");
   background-size: cover;
 }
 
@@ -50,12 +50,12 @@ a {
 }
 
 .bgroadmap {
-  background-image: url("/img/bg_03_roadmap.png");
+  background-image: url("/img/bg_03_roadmap.jpg");
   background-size: cover;
 }
 
 .bgcollection {
-  background-image: url("/img/bg_04_collection.png");
+  background-image: url("/img/bg_04_collection.jpg");
   background-size: cover;
 }
 
@@ -65,19 +65,14 @@ a {
   }
 }
 
-.bgcollectionmobile {
-  background-image: url("/img/bg04_collectionmobile.png");
-  background-size: cover;
-}
-
 .bgfaq {
-  background-image: url("/img/bg_05_faq.png");
+  background-image: url("/img/bg_05_faq.jpg");
   background-size: cover;
   height: 47vw;
 }
 
 .bgteam {
-  background-image: url("/img/bg06_team.png");
+  background-image: url("/img/bg_06_team.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -85,7 +80,7 @@ a {
 }
 
 .bgjoinus {
-  background-image: url("/img/bg07_joinus.png");
+  background-image: url("/img/bg_07_joinus.jpg");
   background-size: cover;
   background-position: center;
   height: 41vw;

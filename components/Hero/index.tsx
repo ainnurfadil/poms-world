@@ -103,6 +103,10 @@ export default function Hero() {
                   src="./img/hero/anim_treeRightBottomCorner.gif"
                   alt="right bottom tree"
                 />
+                {/* <video className="absolute hero__tree-right-bottom" muted autoPlay loop>
+                  <source src="./img/hero/treeRightBottomCorner.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video> */}
 
 
                 {/* <img
