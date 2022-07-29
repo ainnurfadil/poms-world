@@ -13,11 +13,6 @@ export default function Roadmap() {
 
             <div className="flex py-12 md:pb-32 md:pt-20 justify-center w-full h-full relative">
               {/* Tree Left */}
-              {/* <ApngComponent
-              autoPlay={true}
-              // rate={2}
-              className=" w-1/5 h-auto absolute bottom-0 left-0 md:bottom-20"
-              src="./img/anim_treeLeft.png"/> */}
               <img
               alt="left tree animation"
               className="absolute roadmap__tree-left"
@@ -29,12 +24,6 @@ export default function Roadmap() {
               src="./img/line_roadmap.png"/>
 
               {/* Tree Right */}
-              {/* <ApngComponent
-              alt=""
-              autoPlay={true}
-              // rate={2}
-              className=" w-1/5 h-auto absolute bottom-0 right-0 md:bottom-20"
-              src="./img/anim_treeRight.png"/> */}
               <img
               alt="right tree animation"
               className="absolute roadmap__tree-right"

@@ -36,11 +36,6 @@ export default function Hero() {
                 />
 
                 {/* Tree Right */}
-                {/* <ApngComponent
-                autoPlay={true}
-                // rate={2}
-                className="w-24 md:w-60 h-auto absolute top-20 right-12 md:right-72 md:top-40"
-                src="./img/hero/anim_treeRight.png"/> */}
                 {/* <img
                   className="w-24 md:w-60 h-auto absolute top-20 right-12 md:right-72 md:top-40"
                   src="./img/hero/treeRight.png"
@@ -70,11 +65,6 @@ export default function Hero() {
 
 
                 {/* Tree Left Bottom */}
-                {/* <ApngComponent
-                autoPlay={true}
-                // rate={2}
-                className="w-24 md:w-80 h-auto absolute top-36 left-2 md:left-5 md:bottom-36"
-                src="./img/hero/anim_treeLeftBotomCorner.png"/> */}
                 {/* <img
                   className="w-24 md:w-80 h-auto absolute top-36 left-2 md:left-5 md:bottom-36"
                   src="./img/hero/treeLeftBotomCorner.png"
@@ -88,11 +78,6 @@ export default function Hero() {
 
 
                 {/* Tree Right Bottom */}
-                {/* <ApngComponent
-                autoPlay={true}
-                // rate={2}
-                className="w-25 md:w-80 h-auto absolute right-0 top-36 md:right-20 md:top-72"
-                src="./img/hero/anim_treeRightBotomCorner.png"/> */}
                 {/* <img
                   className="w-25 md:w-80 h-auto absolute right-0 top-36 md:right-20 md:top-72"
                   src="./img/hero/treeRightBotomCorner.png"
