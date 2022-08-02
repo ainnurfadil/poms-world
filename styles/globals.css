@@ -105,40 +105,43 @@ a {
 }
 
 .hero__tree-left-bottom {
-  width: 20vw;
-  left: 1vw;
-  bottom: 25vw;
+  width: 30vw;
+  left: -5vw;
+  bottom: 20vw;
 }
 
 @screen lg {
   .hero__tree-left-bottom {
-    left: 2vw;
-    bottom: 20vw;
+    width: 37vw;
+    bottom: 18vw;
   }
 }
 
 .hero__bush {
-  width: 20vw;
-  left: 15vw;
-  bottom: 30vw;
+  left: 12vw;
+    width: 30vw;
+    bottom: 20vw;
 }
 
 @screen lg {
   .hero__bush {
-    left: 20vw;
+    left: 12vw;
+    width: 30vw;
+    bottom: 20vw;
   }
 }
 
 .hero__tree-right {
-  width: 20vw;
-  right: 15vw;
-  bottom: 25vw;
+  width: 30vw;
+  right: 7vw;
+  bottom: 27vw;
 }
 
 @screen lg {
   .hero__tree-right {
     bottom: 25vw;
-    right: 15vw;
+    right: 10vw;
+    width: 30vw;
   }
 }
 
@@ -157,7 +160,14 @@ a {
 .hero__detective {
   width: 20vw;
   right: 26vw;
-  bottom: 8vw;
+  bottom: 12vw;
+  display: none;
+}
+
+@screen md {
+  .hero__detective {
+    display: block;
+  }
 }
 
 @screen lg {
@@ -168,8 +178,8 @@ a {
 }
 
 .hero__tree-right-bottom {
-  width: 20vw;
-  right: 0vw;
+  width: 40vw;
+  right: -7vw;
   bottom: 15vw;
   z-index: 2;
 }
@@ -196,19 +206,20 @@ a {
   .section-synopsis__char {
     max-width: auto;
     margin: 0;
+    transform: scale(1.2);
   }
 }
 
 .roadmap__tree-right {
   bottom: 0;
-  right: 0;
-  max-width: 30vw;
+  right: -15vw;
+  width: 50vw;
 }
 
 .roadmap__tree-left {
   bottom: 0;
-  left: 0;
-  max-width: 20vw;
+  left: -15vw;
+  width: 50vw;
 }
 
 /* FAQ */

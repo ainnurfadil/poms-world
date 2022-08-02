@@ -3,7 +3,7 @@
 export default function Hero() {
     return(
         <>
-            <div className="w-full md:w-full bg-birunavbar py-auto bghero ">
+            <div className="w-full md:w-full bg-birunavbar py-auto bghero overflow-hidden">
               <img
                 className="mx-auto hero__logo"
                 src="./img/poms_world.png"
@@ -19,21 +19,15 @@ export default function Hero() {
                 />
 
                 {/* Bush */}
-                {/* <ApngComponent
-                autoPlay={true}
-                // rate={2}
-                className="w-1/4 h-auto absolute top-40 left-14 md:left-64 md:top-80"
-                src="./img/hero/anim_bush.png"/> */}
                 {/* <img
                   className="w-1/4 h-auto absolute top-40 left-14 md:left-64 md:top-80"
                   src="./img/hero/bush.png"
                   alt=""
                 /> */}
-                <img
-                className="absolute hero__bush"
-                  src="./img/hero/anim_bush.gif"
-                  alt="bush animation"
-                />
+                <video className="absolute hero__bush" muted autoPlay loop>
+                  <source src="./img/hero/bush.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
 
                 {/* Tree Right */}
                 {/* <img
@@ -41,11 +35,10 @@ export default function Hero() {
                   src="./img/hero/treeRight.png"
                   alt=""
                 /> */}
-                <img
-                  className="absolute hero__tree-right"
-                  src="./img/hero/anim_treeRight.gif"
-                  alt=""
-                />
+                <video className="absolute hero__tree-right" muted autoPlay loop>
+                  <source src="./img/hero/treeRight.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
 
 
                 {/* <img
@@ -70,11 +63,10 @@ export default function Hero() {
                   src="./img/hero/treeLeftBotomCorner.png"
                   alt=""
                 /> */}
-                <img
-                  className="absolute hero__tree-left-bottom"
-                  src="./img/hero/anim_treeLeftBottomCorner.gif"
-                  alt="left bottom tree"
-                />
+                <video className="absolute hero__tree-left-bottom" muted autoPlay loop>
+                  <source src="./img/hero/treeLeftBottomCorner.webm" type="video/webm" />
+                  Your browser is not supported!
+                </video>
 
 
                 {/* Tree Right Bottom */}
@@ -83,15 +75,10 @@ export default function Hero() {
                   src="./img/hero/treeRightBotomCorner.png"
                   alt=""
                 /> */}
-                <img
-                  className="absolute hero__tree-right-bottom"
-                  src="./img/hero/anim_treeRightBottomCorner.gif"
-                  alt="right bottom tree"
-                />
-                {/* <video className="absolute hero__tree-right-bottom" muted autoPlay loop>
+                <video className="absolute hero__tree-right-bottom" muted autoPlay loop>
                   <source src="./img/hero/treeRightBottomCorner.webm" type="video/webm" />
                   Your browser is not supported!
-                </video> */}
+                </video>
 
 
                 {/* <img

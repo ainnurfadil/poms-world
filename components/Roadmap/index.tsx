@@ -1,5 +1,4 @@
 // import ApngComponent from 'react-apng';
-// import treeLeft from './img/tree_left.png';
 
 export default function Roadmap() {
     return(
@@ -13,10 +12,10 @@ export default function Roadmap() {
 
             <div className="flex py-12 md:pb-32 md:pt-20 justify-center w-full h-full relative">
               {/* Tree Left */}
-              <img
-              alt="left tree animation"
-              className="absolute roadmap__tree-left"
-              src="./img/anim_treeLeft.gif"/>
+              <video className="absolute roadmap__tree-left" muted autoPlay loop>
+                <source src="./img/treeLeft.webm" type="video/webm" />
+                Your browser is not supported!
+              </video>
 
               <img
               alt=""
@@ -24,10 +23,10 @@ export default function Roadmap() {
               src="./img/line_roadmap.png"/>
 
               {/* Tree Right */}
-              <img
-              alt="right tree animation"
-              className="absolute roadmap__tree-right"
-              src="./img/anim_treeRight.gif"/>
+              <video className="absolute roadmap__tree-right" muted autoPlay loop>
+                <source src="./img/treeRight.webm" type="video/webm" />
+                Your browser is not supported!
+              </video>
 
             </div>
           </div>
